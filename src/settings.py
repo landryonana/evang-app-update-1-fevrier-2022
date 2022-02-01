@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     #'cloudinary_storage',
     #'cloudinary',
     'widget_tweaks',
-    'wkhtmltopdf',
     #=====================================================================
     #=================MY APP==============================================
     #============evangelisation app
