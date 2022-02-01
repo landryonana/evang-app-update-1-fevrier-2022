@@ -17,17 +17,6 @@ from evangelisation.forms import ParticipantForm, FormNbre, EvangForm
 from evangelisation.models import Participant, Evangelisation, Site, Person, Suivi
 
 
-from django.http import FileResponse
-import io
-from reportlab.pdfgen import canvas
-from reportlab.lib.units import inch
-from reportlab.lib.pagesizes import letter
-from reportlab.platypus import SimpleDocTemplate
-from reportlab.platypus.tables import Table
-
-from evangelisation.models import Evangelisation
-
-
 import datetime
 
 
